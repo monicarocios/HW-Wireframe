@@ -1,7 +1,3 @@
-*{
-    box-sizing: border-box
-}
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
@@ -11,23 +7,23 @@ body {
 }
 
 header, nav, section, aside, footer {
-    background: #ebebeb
+    background: #ebebeb;
+    margin-left: 15%;
 }
 
 header, nav {
     display: block;
     text-align: center;
     padding: 30px;
-    margin-left: 13%;
     margin-top: 10px;
-    width: 80%;
+    width: 90%;
 }
 
-.section1 {
+section {
+    display: block;
     text-align: center;
-    height: 200px;
+    height: 260px;
     width: 495px;
-    margin-left: 13%;
     margin-top: 20px;
     padding: 20px;
     float: left;
@@ -36,25 +32,58 @@ header, nav {
 article {
     color: #ebebeb;
     background: #777;
-    height: 150px;
-    width: 450px;
+    height: 180px;
+    width: 500px;
     position: absolute;
-    padding: 10px
+    padding: 10px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 152px;
 }
 
-h1, p {
+/*Need to figure out how to change (lower) the position of h1, h2, and h3 -->FIX VERTICAL ALIGNMENT*/
+h1 {
     color: #777;
     background: #ebebeb;
+    height: 40px;
+    width: 463px;
+    padding: 10px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 170px;
+    text-align: center;
+    font-size: 18px;
+}
+
+p{
+    color: #777;
+    background: #ebebeb;
+    height: 40px;
+    width: 463px;
+    padding: 10px;
+    position: absolute; 
+    margin-top: 220px;
+    margin-left: 170px;
+    text-align: center;
 }
 
 aside {
-    float: left;
-    margin-left: 20px;
-    height: 200px;
-    width: 300px;
+    display: block;
+    float: right;
+    padding: 20px;
+    margin-right: -108px;
+    margin-top: -300px;
+    height: 260px;
+    width: 330px;
     text-align: center;
 }
 
 footer {
     clear: both;
+    display: block;
+    text-align: center;
+    padding: 30px;
+    width: 90%;
+    position: relative;
+    margin-top: 20px;
 }
