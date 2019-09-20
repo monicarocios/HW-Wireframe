@@ -12,6 +12,7 @@ header, nav, section, aside, footer {
 
 header, nav {
     display: block;
+    text-align: center;
 }
 
 
