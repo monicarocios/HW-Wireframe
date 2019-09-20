@@ -13,6 +13,10 @@ header, nav, section, aside, footer {
 header, nav {
     display: block;
     text-align: center;
+    padding: 30px;
+    margin-left: auto;
+    margin-top: 10px;
+    width: 80%;
 }
 
 
@@ -28,4 +32,5 @@ h1, p {
 
 section {
     width: 495px;
+    float: left;
 }
