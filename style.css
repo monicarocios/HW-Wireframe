@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777;
@@ -14,15 +18,28 @@ header, nav {
     display: block;
     text-align: center;
     padding: 30px;
-    margin-left: auto;
+    margin-left: 13%;
     margin-top: 10px;
     width: 80%;
 }
 
+.section1 {
+    text-align: center;
+    height: 200px;
+    width: 495px;
+    margin-left: 13%;
+    margin-top: 20px;
+    padding: 20px;
+    float: left;
+}
 
 article {
     color: #ebebeb;
     background: #777;
+    height: 150px;
+    width: 450px;
+    position: absolute;
+    padding: 10px
 }
 
 h1, p {
@@ -30,7 +47,14 @@ h1, p {
     background: #ebebeb;
 }
 
-section {
-    width: 495px;
+aside {
     float: left;
+    margin-left: 20px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+}
+
+footer {
+    clear: both;
 }
