@@ -78,12 +78,14 @@ aside {
     text-align: center;
 }
 
+/*Footer is kind of messed up, should have same dimensions as header and footer, but for some reason was moving differently and was too close to section and aside. So I changed its position to absolute and then adjusted accordingly*/
 footer {
     clear: both;
     display: block;
     text-align: center;
     padding: 30px;
-    width: 90%;
-    position: relative;
-    margin-top: 20px;
+    width: 67.6%;
+    position: absolute;
+    margin-top: 340px;
+    margin-left: 143px;
 }
